@@ -3,20 +3,37 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: rgb(177, 221, 243);
-  height: 100vh;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  width: 200px;
+  height: 30px;
 }
 
 .container {
   background-color: white;
-  max-width: 1480px;
+  width: 1180px;
+  padding: 20px;
+  height: 92vh;
 }
 
 .nav {
   display: flex;
-  justify-content: space-around;
-  text-align: center;
 }
+.payment {
+  margin-left: 30%;
+  color: rgb(206, 36, 36);
+}
+
 .billing {
-  position: absolute;
-  left: 10%;
+  color: rgb(206, 36, 36);
+}
+
+.card-details {
+  margin-left: 50%;
 }
