@@ -10,11 +10,6 @@ body {
   justify-content: center;
 }
 
-img {
-  width: 200px;
-  height: 30px;
-}
-
 .container {
   background-color: white;
   width: 1180px;
