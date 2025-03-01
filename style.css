@@ -4,31 +4,15 @@ body {
   font-family: "Poppins", sans-serif;
   background-color: rgb(177, 221, 243);
 }
-
-.main-container {
-  display: flex;
-  justify-content: center;
-}
-
-.container {
+.main-box {
   background-color: white;
-  width: 1180px;
-  padding: 20px;
-  height: 92vh;
+  max-width: 1180px;
+  height: 97vh;
+  margin: auto;
+  padding: 25px;
 }
-
-.nav {
+.details {
   display: flex;
-}
-.payment {
-  margin-left: 30%;
-  color: rgb(206, 36, 36);
-}
-
-.billing {
-  color: rgb(206, 36, 36);
-}
-
-.card-details {
-  margin-left: 50%;
+  justify-content: left;
+  gap: 40%;
 }
