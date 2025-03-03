@@ -10,7 +10,7 @@ body {
   height: 95vh;
   margin: auto;
   margin-top: 10px;
-  border-radius: 15px;
+  border-radius: 5px;
   padding: 25px;
 }
 
@@ -38,7 +38,10 @@ select {
 .pin input,
 .pin label {
   width: 66%;
-  margin-right: 20px;
+}
+.state-pin {
+  display: flex;
+  gap: -20px;
 }
 
 .last input {
