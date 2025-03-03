@@ -30,6 +30,32 @@ select {
   padding: 8px;
 }
 
-button {
+.state-1 input,
+.state-1 label {
+  width: 95%;
+}
+
+.pin input,
+.pin label {
+  width: 86%;
+  margin-right: 20px;
+}
+
+.last input {
+  width: 74%;
+}
+
+.last select {
+  width: 145%;
+}
+
+.last input,
+.last-2 label {
+  margin-left: 60px;
+}
+
+.submit_btn {
   margin-top: 25px;
+  background-color: #008000;
+  color: #fff;
 }

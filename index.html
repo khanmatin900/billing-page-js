@@ -11,94 +11,103 @@
 
 <body>
   <div class="main-box">
-    <div class="container">
-      <div class="row">
+    <form action="#">
+      <div class="container">
+        <div class="row">
 
-        <div class="col">
-          <h3>Billing Address</h3>
-          <label for="name">Full Name:</label><br>
-          <input type="text" placeholder="Enter Your Full Name"><br>
+          <div class="col">
+            <h3>Billing Address</h3>
+            <label for="name">Full Name:</label><br>
+            <input type="text" placeholder="Enter Your Full Name"><br>
 
-          <label for="email">Email:</label><br>
-          <input type="text" placeholder="Enter Email Address"><br>
+            <label for="email">Email:</label><br>
+            <input type="text" placeholder="Enter Email Address"><br>
 
-          <label for="address">Address:</label><br>
-          <input type="text" placeholder="Enter Address"><br>
+            <label for="address">Address:</label><br>
+            <input type="text" placeholder="Enter Address"><br>
 
-          <label for="city">City:</label><br>
-          <input type="text" placeholder="Enter City"><br>
+            <label for="city">City:</label><br>
+            <input type="text" placeholder="Enter City"><br>
+
+
+            <div class="row row-cols-auto">
+              <div class="col state-1">
+                <label for="state">State:</label><br>
+                <input type="text" placeholder="Enter State">
+              </div>
+              <div class="col pin">
+                <label for="pin-code">Pin Code:</label><br>
+                <input type="text" placeholder="123 456">
+              </div>
+            </div>
+
+
+
+          </div>
+
+
+
+          <div class="col">
+            <h3>Payment</h3>
+            <label for="cards">Card Accepted:</label><br>
+            <img src="pic/card-img.png" alt="card-img"><br>
+
+            <label for="name-card">Name On Card:</label><br>
+            <input type="text" placeholder="Enter Card Name"><br>
+
+            <label for="card-num">Card Number:</label><br>
+            <input type="num" placeholder="1111-2222-3333-4444"><br>
+
+            <label for="expiry-month">Exp Month:</label><br>
+            <select name="month" id="month-all">
+              <option value="choose-month">Choose Month</option>
+              <option value="jan">January</option>
+              <option value="feb">February</option>
+              <option value="mar">March</option>
+              <option value="apr">April</option>
+              <option value="may">May</option>
+              <option value="june">June</option>
+              <option value="jul">July</option>
+              <option value="aug">August</option>
+              <option value="sep">September</option>
+              <option value="oct">October</option>
+              <option value="nov">November</option>
+              <option value="dec">December</option>
+            </select><br>
+
+
+            <div class="row row-cols-auto">
+              <div class="col last">
+                <label for="exp-year" class="label-1">Exp Year:</label><br>
+                <select name="exp-year" id="exp-year">
+                  <option value="choose-year">Choose Year</option>
+                  <option value="2025">2025</option>
+                  <option value="2026">2026</option>
+                  <option value="2027">2027</option>
+                  <option value="2028">2028</option>
+                  <option value="2029">2029</option>
+                  <option value="2030">2030</option>
+                  <option value="2031">2031</option>
+                  <option value="2032">2032</option>
+                  <option value="2033">2033</option>
+                  <option value="2034">2034</option>
+                  <option value="2035">2035</option>
+                </select>
+              </div>
+
+              <div class="col last last-2">
+                <label for="cvv">CVV</label><br>
+                <input type="num" placeholder="123">
+              </div>
+
+            </div>
+          </div>
         </div>
-        <div class="col">
-          <h3>Payment</h3>
-          <label for="cards">Card Accepted:</label><br>
-          <img src="pic/card-img.png" alt="card-img"><br>
-
-          <label for="name-card">Name On Card:</label><br>
-          <input type="text" placeholder="Enter Card Name"><br>
-
-          <label for="card-num">Card Number:</label><br>
-          <input type="num" placeholder="1111-2222-3333-4444"><br>
-
-          <label for="expiry-month">Exp Month:</label><br>
-          <select name="month" id="month-all">
-            <option value="choose-month">Choose Month</option>
-            <option value="jan">January</option>
-            <option value="feb">February</option>
-            <option value="mar">March</option>
-            <option value="apr">April</option>
-            <option value="may">May</option>
-            <option value="june">June</option>
-            <option value="jul">July</option>
-            <option value="aug">August</option>
-            <option value="sep">September</option>
-            <option value="oct">October</option>
-            <option value="nov">November</option>
-            <option value="dec">December</option>
-          </select><br>
-        </div>
+        <input type="submit" value="Proceed To Checkout" class="submit_btn">
       </div>
-    </div>
 
-    <div class="container">
-      <div class="row">
-        <div class="col">
-          <label for="state">State:</label><br>
-          <input type="text" placeholder="Enter State">
-        </div>
-        <div class="col">
-          <label for="pin-code">Pin Code:</label><br>
-          <input type="text" placeholder="123 456">
-        </div>
-        <div class="col">
-          <label for="exp-year">Exp Year:</label><br>
-          <select name="exp-year" id="exp-year">
-            <option value="choose-year">Choose Year</option>
-            <option value="2025">2025</option>
-            <option value="2026">2026</option>
-            <option value="2027">2027</option>
-            <option value="2028">2028</option>
-            <option value="2029">2029</option>
-            <option value="2030">2030</option>
-            <option value="2031">2031</option>
-            <option value="2032">2032</option>
-            <option value="2033">2033</option>
-            <option value="2034">2034</option>
-            <option value="2035">2035</option>
-            <option value="2036">2036</option>
-            <option value="2037">2037</option>
-            <option value="2039">2039</option>
-            <option value="2040">2040</option>
 
-          </select>
-        </div>
-        <div class="col">
-          <label for="cvv">CVV</label><br>
-          <input type="num" placeholder="123" style="width: 55%; margin-right: 30px;">
-        </div>
-      </div>
-    </div>
-
-    <button type="button" class="btn btn-success">Proceed To Checkout </button>
+    </form>
   </div>
 
 </body>
